@@ -31,7 +31,7 @@ export default function TabLayout() {
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
       }}>
       <Tabs.Screen
-        name="index"
+        name="feed"
         options={{
           title: 'Feed',
           tabBarIcon: ({ color }) => <TabBarIcon name="th-list" color={color} />,
@@ -52,14 +52,14 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="workout"
         options={{
           title: 'Workout',
           tabBarIcon: ({ color }) => <MaterialTabBarIcon name="dumbbell" color={color} />,
         }}
       />
       <Tabs.Screen
-        name="three"
+        name="profile"
         options={{
           title: 'Profile',
           tabBarIcon: ({ color }) => <TabBarIcon name="user" color={color} />,
