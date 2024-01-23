@@ -1,0 +1,34 @@
+{
+  "workouts" : {
+    "bench" : {
+      "name" : "Bench Press",
+      "sets" : 3,
+      "reps" : 5,
+      "weight" : 135
+    },
+    "squat" : {
+      "name" : "Squat",
+      "sets" : 3,
+      "reps" : 5,
+      "weight" : 135
+    },
+    "deadlift" : {
+      "name" : "Deadlift",
+      "sets" : 1,
+      "reps" : 5,
+      "weight" : 135
+    },
+    "press" : {
+      "name" : "Press",
+      "sets" : 3,
+      "reps" : 5,
+      "weight" : 135
+    },
+    "row" : {
+      "name" : "Row",
+      "sets" : 3,
+      "reps" : 5,
+      "weight" : 135
+    }
+  }
+}
